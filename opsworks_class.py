@@ -77,11 +77,11 @@ class OpsManage:
 
 
 
-apl_staging = OpsManage('aboutPlace Staging')
+apl_staging = OpsManage('Stagingenv')
 #print(apl_staging.get_layers())
 #print(apl_staging.get_layer_id('API'))
 print(apl_staging.get_stack_inst_info())
 print(apl_staging.get_online_layer_insts('API'))
-apl_staging.execute_recipe('aboutPlace Staging','API','api-deploy','deploy')
+apl_staging.execute_recipe('Stagingenv','API','api-deploy','deploy')
 
 
